@@ -1,0 +1,30 @@
+*{
+    margin: auto;
+    padding: 1rem;
+}
+.grid{
+    display: grid;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1fr;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1fr;
+}
+.box{
+    width: 50vw;
+    height: 30vh;
+    border: 5px solid black;
+    margin: .5rem;
+    background: red;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+span{
+    /* margin: 5rem; */
+    padding: 30rem;
+    font-size: 5rem;
+}
